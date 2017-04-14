@@ -1,0 +1,47 @@
+body{
+  background-color: wheat;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ppic{
+  height: 200px;
+  border-radius: 20px;
+}
+.headline{
+  font-style: italic;
+}
+.content{
+  display: flex;
+  background-color: tan;
+  border-radius: 20px;
+}
+.aboutMe{
+  font-family: monospace;
+  padding: 20px;
+}
+.picGallery{
+  font-family: monospace;
+  padding: 20px;
+}
+.about{
+  display: none;
+  width: 30vw;
+  text-align: justify;
+}
+.images{
+  display: none;
+  width:70vw;
+  height: 50vh;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+.images>img{
+  width: 200px;
+  border-radius: 10px;
+  height: auto;
+  margin: 10px;
+}
